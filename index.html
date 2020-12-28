@@ -14,7 +14,7 @@ featured_image: /images/sojo-kitchen.png
 <section class="intro">
 	<div class="wrap">
 		{% for recipe in site.recipes reversed %}
-			<h1 onclick="accordion('{{ recipe.title}}')">{{ recipe.title}}</h1>
+			<h1 class="hover" onclick="accordion('{{ recipe.title}}')">{{ recipe.title}}</h1>
 			<p id="{{ recipe.title}}" class="hide">{{ recipe.ingredients}}</p>
 		{% endfor %}
 	</div>

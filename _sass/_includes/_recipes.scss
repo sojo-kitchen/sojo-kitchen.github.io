@@ -1,13 +1,17 @@
 
 // Formatting for space
-.space {
-
+.hover {
+    &:hover {
+		color: $accent-color;
+    }
+    cursor: pointer;
 }
 
 // Accordion
 .hide {
-    display: none!important
+    display: none!important;
 }
 .show {
-    display: block!important
+    display: block!important;
+    padding-bottom: 5px;
 }
