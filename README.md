@@ -1,4 +1,4 @@
 # sojo-kitchen.github.io
-testing
 
-testing again
+`bundle exec jekyll build`
+`bundle exec jekyll serve`

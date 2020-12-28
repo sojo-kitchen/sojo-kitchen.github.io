@@ -1,0 +1,20 @@
+---
+layout: default
+title: SoJo Kitchen
+description: SoJo Kitchen providing yummy recipes that are simple.
+featured_image: /images/sojo-kitchen.png
+---
+
+<section class="intro">
+	<div class="wrap">
+		<p><ins>healthy</ins>, <ins>simple</ins>, <ins>quick</ins>, and <ins>yummy</ins> recipes</p>
+	</div>
+</section>
+
+<section class="intro">
+	<div class="wrap">
+		{% for recipe in site.recipes reversed %}
+			<h1>{{ recipe.title}}</h1>
+		{% endfor %}
+	</div>
+</section>
