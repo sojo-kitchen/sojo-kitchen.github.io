@@ -1,9 +1,9 @@
 ---
 title: Mushroom Risotto 
-ingredients: mushrooms, selery, risotto rice, white wine
+ingredients: mushrooms, celery, risotto rice, white wine
 spices: thyme, salt
 category: main
-region: mediteranean 
+region: mediterranean 
 spice level: low
 difficulty: easy
 ---
